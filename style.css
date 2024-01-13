@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&display=swap');
+
+/* Resetar informações padrão do CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F1517;
+    color: #FFFFFF;
+}
+
+html {
+    font-family: Inter;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko;      
+    font-size: 32px;
+    font-weight: 2rem;
+    text-transform: uppercase; /*Colocar letras em maiusculo*/
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #FFF2E780;
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background-color: #181012;
+}
+
+.cabeçalho {
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;      
+    margin: auto;
+    padding: 0rem 2rem;
+    overflow: clip;
+    align-items: center;
+}
+
+.conteudo-cabeçalho {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destaque {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.marrom {
+    color: #A45A49;
+}
+
+.amarelo {
+    color: #E7A80E;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #A45A49;
+}
+
+.subtitulo-cabeçalho {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.botao-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate("0, -50%");
+}
+
+button {
+    border: none;
+    padding: 1rem; 
+    border-radius: 0.5rem;
+    background-color: #A45A49;
+}
+
+.imagens-cabeçalho {
+    max-width: 45%;
+    column-count: 4;
+}
+
+.imagens-cabeçalho > figure > img {
+    width: 100%;
+}
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.cabeçalho-receitas {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.titulo-receitas{
+    font-size: 2rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #FFF2E7;
+}
+
+.subtitulo-receitas {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+
+}
+
+.cards-receitas {
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card-da-receita{
+    background-color: #2A1A1C;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+}
+
+.cabeçalho-da-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.dois-elementos-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.titulo-card-receita{
+    color: #FFF2E7;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.avaliação-card-receita{
+    color: #756A67;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.descrição-card-receita{
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.autor-receita{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.autor-receita > img {
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+
+.nome-autor-receita{
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #23181A;
+}
+
+.copy-footer{
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.autor-footer{
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
