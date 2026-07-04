@@ -14,15 +14,6 @@ A estrutura do projeto foi planejada utilizando as melhores práticas do **HTML5
 
 ---
 
-## 🎨 Design System & Experiência do Usuário (UX)
-
-Aliando os conhecimentos técnicos em desenvolvimento web aos estudos de **Design Gráfico na ETEC**, a interface foi construída pensando na harmonia visual e na usabilidade:
-
-* **Arquitetura da Informação:** Organização em grid para a seção de receitas, facilitando a legibilidade através de uma hierarquia tipográfica clara (`<h1>`, `<h2>`, `<h3>`).
-* **Microinterações:** Botão de rolagem estruturado (`botao-container`) para guiar a jornada e o fluxo de leitura do usuário até o mural de conteúdos.
-* **Identidade Visual Temática:** Aplicação direcionada de classes de estilo para badge-tags (`destaque marrom`, `destaque amarelo`) que trazem contraste ao layout e sinalizam estados importantes do produto, como itens "em alta" ou "mais feitos".
-
----
 
 ## 🔧 Como Executar o Projeto
 
